@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Snake Game</title>
+<link rel="stylesheet" href="snake.css" type="text/css">
+<!-- JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Main JS -->
+<script src="snake.js"></script>
+</head>
+<body>
+
+
+
+<div class="container">
+
+
+
+	 <div id="overlay">
+		Your Final Score: <span id="final_score"></span>
+		<br>
+		<a onclick="window.location.reload()" href="#">Click To Play Again</a>
+	</div> 
+	<canvas id="canvas" width="585" height="416">
+		Sorry, this browser does not support the canvas element
+	</canvas>
+	<div id="stats">
+		<div id="score"></div>
+		<div id="high_score"></div>
+		<button onclick="resetScore()" id="reset_score">Reset High Score</button><br>
+	</div>
+	<div id="stats1">
+		<p>Created By <a href="https://kumarvicku.ml" target="_blank"><u>KUMAR VICKU</u>.</a></p>
+	</div>
+</div>
+
+
+</body>
+</html>
